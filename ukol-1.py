@@ -35,3 +35,13 @@ print(name[0][0].upper()+ name[0][1:] + " " + name[1][0].upper() + name[1][1:])
 print(jmeno_a_prijmeni[0].upper() +"." +" "+ jmeno_a_prijmeni[6].upper()+".")
 #fix
 print(name[0][0].upper()+"." + " " + name[1][0].upper() + ".")
+
+
+#neco navic: 
+print(jmeno_a_prijmeni[::-1])
+print("Alena\nRudykh")
+print("Alena\tRudykh")
+
+name1 = " Alena "
+print (name1)
+print(name1.strip()) #removes spaces
