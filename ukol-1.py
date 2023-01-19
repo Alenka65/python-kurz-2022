@@ -7,7 +7,7 @@ print(jmeno + "@czechitas.cz")
 #druhe reseni
 jmeno = "Alena"
 prijmeni = "Rudykh"
-domena = "@czechitaz.cz"
+domena = "@czechitas.cz"
 print(jmeno+prijmeni+domena)
 
 
@@ -24,7 +24,14 @@ print(jmeno_a_prijmeni.lower())
 
 #standardní varianta - první písmeno velké, další malá (vypíše např. Jana Malá) -> pokud zadam svoje jmeno "Alena Rudykh" :D
 print(jmeno_a_prijmeni[0].upper()+jmeno_a_prijmeni[1:5].lower()+" "+jmeno_a_prijmeni[6].upper()+jmeno_a_prijmeni[7:].lower())
+#fix
+print(jmeno_a_prijmeni.title())
+#anebo takhle:
+name = jmeno_a_prijmeni.split()
+print(name)
+print(name[0][0].upper()+ name[0][1:] + " " + name[1][0].upper() + name[1][1:])
 
-#iniciály (vypíše např. J. M.)
+#iniciály (vypíše např. J. M.).
 print(jmeno_a_prijmeni[0].upper() +"." +" "+ jmeno_a_prijmeni[6].upper()+".")
-
+#fix
+print(name[0][0].upper()+"." + " " + name[1][0].upper() + ".")
