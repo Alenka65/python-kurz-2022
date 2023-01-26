@@ -50,7 +50,7 @@ text = input("Zadej text: ")
 print(text)
 
 for i in text:
-    #print(i) vypisovala jsem to pro vlastni kontrolu.
+    #print(i) vypisovala jsem to pro vlastni kontrolu
     if i in morse_code:
         print ( morse_code[i], end = " ")
         jmeno += morse_code[i]
