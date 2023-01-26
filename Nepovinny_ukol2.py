@@ -55,4 +55,4 @@ for i in text:
         print ( morse_code[i], end = " ")
         jmeno += morse_code[i]
 
-print("Slovo: ", text, "v morsove abecede bude: ", jmeno)
+print("\nSlovo: ", text, "v morsove abecede bude: ", jmeno)
