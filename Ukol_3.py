@@ -16,4 +16,4 @@ import json
 with open('body2.json', mode='w', encoding='utf-8') as soubor:
     json.dump(body, soubor)
 
-# 
+#Mohl byste mi poradit proc body2.json file je uplne rozbity kvuli diakritice? Netusim co s tim mam udelat :(
