@@ -24,4 +24,4 @@ def vypocet_ceny_zpravy (zprava):
 
 vypocet_ceny_zpravy(zprava)
 
-#Komentar k 2ce, ja si nejsem jista jestli je to spravne matematicky a nevim prijit na to, jak to spravne napsat :(
+# Komentar k 2ce, ja si nejsem jista jestli je to spravne matematicky a nevim prijit na to, jak to spravne napsat :(
